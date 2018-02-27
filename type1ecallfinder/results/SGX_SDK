@@ -1,0 +1,689 @@
+*********************************
+*********************************
+*********************************
+*************RESULTS:************
+*********************************
+*********************************
+*********************************
+*********************************
+*************gadgets:************
+*********************************
+*********************************
+gadget 0:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rbx
+rdi
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 init_rbx_1_64>
+<BV64 0x0>
+<BV64 0x1006>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 1:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rbx
+rdi
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 init_rbx_1_64>
+<BV64 0x0>
+<BV64 0x1006>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 2:
+*********************************
+address:
+0x403211L
+gtype:
+3
+regs affected:
+rdi
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1006>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 3:
+*********************************
+address:
+0x403211L
+gtype:
+3
+regs affected:
+rdi
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1006>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 4:
+*********************************
+address:
+0x403211L
+gtype:
+3
+regs affected:
+rdi
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x624020>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x0>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 5:
+*********************************
+address:
+0x403211L
+gtype:
+3
+regs affected:
+rdi
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x624020>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x0>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 6:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 7:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 8:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 9:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 10:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 0x623e80>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 11:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 0x623e80>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 12:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 0x623e80>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 13:
+*********************************
+address:
+0x404997L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r13
+r14
+r15
+regs:
+<BV64 0x7f000000>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 0x623e80>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 14:
+*********************************
+address:
+0x402c83L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x1001>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1001>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 15:
+*********************************
+address:
+0x402c83L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x1001>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1001>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 16:
+*********************************
+address:
+0x402c41L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x1007>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1007>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 17:
+*********************************
+address:
+0x402c41L
+gtype:
+3
+regs affected:
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x1007>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1007>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 18:
+*********************************
+address:
+0x4032c5L
+gtype:
+3
+regs affected:
+rbx
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x1001>
+<BV64 init_rbx_1_64>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1001>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_r12_10_64>
+<BV64 init_r13_11_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 19:
+*********************************
+address:
+0x4032c5L
+gtype:
+3
+regs affected:
+rbx
+rsi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x1001>
+<BV64 init_rbx_1_64>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1001>
+<BV64 0x0>
+<BV64 init_rsi_5_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_r12_10_64>
+<BV64 init_r13_11_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 20:
+*********************************
+address:
+0x402d38L
+gtype:
+1
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x4011af>
+<BV64 0x0>
+<BV64 mem_7f000008_18_64>
+<BV64 0x1>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rbx_1_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+

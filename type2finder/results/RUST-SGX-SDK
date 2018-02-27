@@ -1,0 +1,970 @@
+*********************************
+*********************************
+*********************************
+*************RESULTS:************
+*********************************
+*********************************
+*********************************
+*********************************
+[regA, regB, regC] gadgets:
+*********************************
+Gadget 0:
+start address: 406d1a
+end address: 406d25
+regA: rsi
+regB: r9d
+regC: rdi
+Gadget 1:
+start address: 406f29
+end address: 406f34
+regA: r8
+regB: r9d
+regC: rdi
+Gadget 2:
+start address: 40755b
+end address: 407566
+regA: rsi
+regB: r9d
+regC: r12
+Gadget 3:
+start address: 408ffb
+end address: 409006
+regA: rdx
+regB: r12d
+regC: rsi
+Gadget 4:
+start address: 4097a1
+end address: 4097ac
+regA: r8
+regB: edi
+regC: rbx
+Gadget 5:
+start address: 409877
+end address: 409881
+regA: rsi
+regB: edi
+regC: rbx
+Gadget 6:
+start address: 434600
+end address: 434607
+regA: rdx
+regB: ecx
+regC: r12
+Gadget 7:
+start address: 4348b8
+end address: 4348bf
+regA: rdx
+regB: ecx
+regC: r12
+Gadget 8:
+start address: 43555a
+end address: 435562
+regA: rdi
+regB: rax
+regC: r10
+*********************************
+*********************************
+*********************************
+[regA, regB] gadgets:
+*********************************
+Gadget 0:
+start address: 4029b1
+end address: 4029bd
+regA: r14
+regB: rdi
+Gadget 1:
+start address: 4029c7
+end address: 4029db
+regA: r14
+regB: rdi
+Gadget 2:
+start address: 4029fe
+end address: 402a0a
+regA: r14
+regB: rdi
+Gadget 3:
+start address: 402a2f
+end address: 402a3b
+regA: r14
+regB: rdi
+Gadget 4:
+start address: 4030c7
+end address: 4030cb
+regA: r15
+regB: rax
+Gadget 5:
+start address: 403254
+end address: 403259
+regA: r12
+regB: rax
+Gadget 6:
+start address: 403387
+end address: 40338b
+regA: r15
+regB: rax
+Gadget 7:
+start address: 403500
+end address: 403504
+regA: r15
+regB: rax
+Gadget 8:
+start address: 406773
+end address: 406777
+regA: rbx
+regB: rdx
+Gadget 9:
+start address: 406773
+end address: 40677e
+regA: rbx
+regB: rdx
+Gadget 10:
+start address: 406918
+end address: 40691f
+regA: rdi
+regB: r8
+Gadget 11:
+start address: 407867
+end address: 40786b
+regA: r8
+regB: rax
+Gadget 12:
+start address: 407acc
+end address: 407ad0
+regA: r10
+regB: rax
+Gadget 13:
+start address: 417fe7
+end address: 417fea
+regA: r14
+regB: rbx
+Gadget 14:
+start address: 41800f
+end address: 418019
+regA: r14
+regB: rax
+Gadget 15:
+start address: 41866e
+end address: 418672
+regA: r15
+regB: rbx
+Gadget 16:
+start address: 41866e
+end address: 418675
+regA: r15
+regB: rbx
+Gadget 17:
+start address: 418675
+end address: 418679
+regA: rbx
+regB: rax
+Gadget 18:
+start address: 41867b
+end address: 41867f
+regA: rbx
+regB: rax
+Gadget 19:
+start address: 418710
+end address: 41871a
+regA: rdi
+regB: rax
+Gadget 20:
+start address: 41873e
+end address: 418742
+regA: r15
+regB: rbx
+Gadget 21:
+start address: 41873e
+end address: 418745
+regA: r15
+regB: rbx
+Gadget 22:
+start address: 418745
+end address: 418749
+regA: rbx
+regB: rax
+Gadget 23:
+start address: 41874b
+end address: 41874f
+regA: rbx
+regB: rax
+Gadget 24:
+start address: 4187c4
+end address: 4187c8
+regA: rbx
+regB: r15
+Gadget 25:
+start address: 4187c4
+end address: 4187cb
+regA: rbx
+regB: r15
+Gadget 26:
+start address: 4187cb
+end address: 4187cf
+regA: r15
+regB: rax
+Gadget 27:
+start address: 4187d1
+end address: 4187d5
+regA: r15
+regB: rax
+Gadget 28:
+start address: 4188e3
+end address: 4188e6
+regA: rdi
+regB: rcx
+Gadget 29:
+start address: 4188e3
+end address: 4188e9
+regA: rdi
+regB: rcx
+Gadget 30:
+start address: 41899d
+end address: 4189a1
+regA: rbx
+regB: rax
+Gadget 31:
+start address: 4189a3
+end address: 4189a7
+regA: rbx
+regB: rax
+Gadget 32:
+start address: 418d97
+end address: 418d9a
+regA: r14
+regB: rbx
+Gadget 33:
+start address: 418dbf
+end address: 418dc9
+regA: r14
+regB: rax
+Gadget 34:
+start address: 419190
+end address: 41919a
+regA: rdi
+regB: rax
+Gadget 35:
+start address: 4191fa
+end address: 4191fe
+regA: rbx
+regB: rax
+Gadget 36:
+start address: 419200
+end address: 419204
+regA: rbx
+regB: rax
+Gadget 37:
+start address: 41929d
+end address: 4192a0
+regA: rbx
+regB: rax
+Gadget 38:
+start address: 4192b8
+end address: 4192bb
+regA: rbx
+regB: rax
+Gadget 39:
+start address: 419384
+end address: 419388
+regA: rbx
+regB: r15
+Gadget 40:
+start address: 419384
+end address: 41938b
+regA: rbx
+regB: r15
+Gadget 41:
+start address: 41938b
+end address: 41938f
+regA: r15
+regB: rax
+Gadget 42:
+start address: 419391
+end address: 419395
+regA: r15
+regB: rax
+Gadget 43:
+start address: 4193ff
+end address: 419403
+regA: r15
+regB: rbx
+Gadget 44:
+start address: 4193ff
+end address: 419406
+regA: r15
+regB: rbx
+Gadget 45:
+start address: 419406
+end address: 41940a
+regA: rbx
+regB: rax
+Gadget 46:
+start address: 41940c
+end address: 419410
+regA: rbx
+regB: rax
+Gadget 47:
+start address: 4194d0
+end address: 4194da
+regA: rdi
+regB: rax
+Gadget 48:
+start address: 4194fe
+end address: 419502
+regA: r15
+regB: rbx
+Gadget 49:
+start address: 4194fe
+end address: 419505
+regA: r15
+regB: rbx
+Gadget 50:
+start address: 419505
+end address: 419509
+regA: rbx
+regB: rax
+Gadget 51:
+start address: 41950b
+end address: 41950f
+regA: rbx
+regB: rax
+Gadget 52:
+start address: 41957f
+end address: 419583
+regA: r15
+regB: rbx
+Gadget 53:
+start address: 41957f
+end address: 419586
+regA: r15
+regB: rbx
+Gadget 54:
+start address: 419586
+end address: 41958a
+regA: rbx
+regB: rax
+Gadget 55:
+start address: 41958c
+end address: 419590
+regA: rbx
+regB: rax
+Gadget 56:
+start address: 4195fe
+end address: 419602
+regA: r15
+regB: rbx
+Gadget 57:
+start address: 4195fe
+end address: 419605
+regA: r15
+regB: rbx
+Gadget 58:
+start address: 419605
+end address: 419609
+regA: rbx
+regB: rax
+Gadget 59:
+start address: 41960b
+end address: 41960f
+regA: rbx
+regB: rax
+Gadget 60:
+start address: 4196a1
+end address: 4196a5
+regA: r14
+regB: rax
+Gadget 61:
+start address: 4196a7
+end address: 4196ab
+regA: r14
+regB: rax
+Gadget 62:
+start address: 419d6f
+end address: 419d73
+regA: rbx
+regB: rax
+Gadget 63:
+start address: 419d75
+end address: 419d79
+regA: rbx
+regB: rax
+Gadget 64:
+start address: 41a9e3
+end address: 41a9e6
+regA: rdi
+regB: rcx
+Gadget 65:
+start address: 41a9e3
+end address: 41a9e9
+regA: rdi
+regB: rcx
+Gadget 66:
+start address: 41aa23
+end address: 41aa26
+regA: rdi
+regB: rcx
+Gadget 67:
+start address: 41aa23
+end address: 41aa29
+regA: rdi
+regB: rcx
+Gadget 68:
+start address: 41b962
+end address: 41b966
+regA: r13
+regB: rax
+Gadget 69:
+start address: 41b968
+end address: 41b96c
+regA: r13
+regB: rax
+Gadget 70:
+start address: 41bda8
+end address: 41bdac
+regA: rdi
+regB: rax
+Gadget 71:
+start address: 41be56
+end address: 41be5a
+regA: rdi
+regB: rax
+Gadget 72:
+start address: 41be56
+end address: 41be5d
+regA: rdi
+regB: rax
+Gadget 73:
+start address: 41c152
+end address: 41c156
+regA: rbx
+regB: rax
+Gadget 74:
+start address: 41c158
+end address: 41c15c
+regA: rbx
+regB: rax
+Gadget 75:
+start address: 41c4b7
+end address: 41c4ba
+regA: rsi
+regB: r13
+Gadget 76:
+start address: 41c5c1
+end address: 41c5c4
+regA: rsi
+regB: rbx
+Gadget 77:
+start address: 41c6c7
+end address: 41c6cb
+regA: rbx
+regB: rax
+Gadget 78:
+start address: 41c6cd
+end address: 41c6d1
+regA: rbx
+regB: rax
+Gadget 79:
+start address: 41c7c7
+end address: 41c7ca
+regA: rsi
+regB: r14
+Gadget 80:
+start address: 41c9e9
+end address: 41c9ed
+regA: rbx
+regB: rax
+Gadget 81:
+start address: 41c9ef
+end address: 41c9f3
+regA: rbx
+regB: rax
+Gadget 82:
+start address: 41ca24
+end address: 41ca28
+regA: rbx
+regB: rax
+Gadget 83:
+start address: 41ca2a
+end address: 41ca2e
+regA: rbx
+regB: rax
+Gadget 84:
+start address: 41cf85
+end address: 41cf89
+regA: rbx
+regB: r12
+Gadget 85:
+start address: 41cf85
+end address: 41cf8d
+regA: rbx
+regB: r12
+Gadget 86:
+start address: 41cf8d
+end address: 41cf92
+regA: r12
+regB: rax
+Gadget 87:
+start address: 41cf94
+end address: 41cf99
+regA: r12
+regB: rax
+Gadget 88:
+start address: 41d046
+end address: 41d04a
+regA: rbx
+regB: r12
+Gadget 89:
+start address: 41d046
+end address: 41d04e
+regA: rbx
+regB: r12
+Gadget 90:
+start address: 41d04e
+end address: 41d053
+regA: r12
+regB: rax
+Gadget 91:
+start address: 41d055
+end address: 41d05a
+regA: r12
+regB: rax
+Gadget 92:
+start address: 41d22e
+end address: 41d231
+regA: rdi
+regB: rsi
+Gadget 93:
+start address: 41d22e
+end address: 41d234
+regA: rdi
+regB: rsi
+Gadget 94:
+start address: 41d4bc
+end address: 41d4c0
+regA: rbx
+regB: rax
+Gadget 95:
+start address: 41d4c2
+end address: 41d4c6
+regA: rbx
+regB: rax
+Gadget 96:
+start address: 41dac4
+end address: 41dac8
+regA: rbx
+regB: rax
+Gadget 97:
+start address: 41daca
+end address: 41dace
+regA: rbx
+regB: rax
+Gadget 98:
+start address: 41db88
+end address: 41db8c
+regA: rbx
+regB: rax
+Gadget 99:
+start address: 41db8e
+end address: 41db92
+regA: rbx
+regB: rax
+Gadget 100:
+start address: 4200a8
+end address: 4200ac
+regA: rbx
+regB: rax
+Gadget 101:
+start address: 4200ae
+end address: 4200b2
+regA: rbx
+regB: rax
+Gadget 102:
+start address: 420156
+end address: 42015a
+regA: r15
+regB: rax
+Gadget 103:
+start address: 42015c
+end address: 420160
+regA: r15
+regB: rax
+Gadget 104:
+start address: 4233a3
+end address: 4233a7
+regA: rbx
+regB: rax
+Gadget 105:
+start address: 4233a9
+end address: 4233ad
+regA: rbx
+regB: rax
+Gadget 106:
+start address: 423544
+end address: 423547
+regA: rdi
+regB: rax
+Gadget 107:
+start address: 423554
+end address: 423557
+regA: rdi
+regB: rax
+Gadget 108:
+start address: 423bb1
+end address: 423bb4
+regA: rdi
+regB: rax
+Gadget 109:
+start address: 423bb1
+end address: 423bb7
+regA: rdi
+regB: rax
+Gadget 110:
+start address: 424e39
+end address: 424e45
+regA: r14
+regB: rax
+Gadget 111:
+start address: 424e58
+end address: 424e62
+regA: r14
+regB: rax
+Gadget 112:
+start address: 424fa2
+end address: 424fad
+regA: r14
+regB: rax
+Gadget 113:
+start address: 42507d
+end address: 425089
+regA: r14
+regB: rax
+Gadget 114:
+start address: 4251a3
+end address: 4251ad
+regA: r14
+regB: rax
+Gadget 115:
+start address: 4251c0
+end address: 4251cc
+regA: r14
+regB: rax
+Gadget 116:
+start address: 4251f2
+end address: 4251fc
+regA: r14
+regB: rax
+Gadget 117:
+start address: 42525b
+end address: 425267
+regA: r14
+regB: rax
+Gadget 118:
+start address: 425272
+end address: 42527e
+regA: r14
+regB: rax
+Gadget 119:
+start address: 4252a3
+end address: 4252ae
+regA: r14
+regB: rax
+Gadget 120:
+start address: 4255c1
+end address: 4255c6
+regA: r12
+regB: rax
+Gadget 121:
+start address: 4256f4
+end address: 4256ff
+regA: r12
+regB: rax
+Gadget 122:
+start address: 425710
+end address: 42571d
+regA: r12
+regB: rax
+Gadget 123:
+start address: 425743
+end address: 42574e
+regA: r12
+regB: rax
+Gadget 124:
+start address: 4257e1
+end address: 4257eb
+regA: r14
+regB: rax
+Gadget 125:
+start address: 425817
+end address: 425821
+regA: r15
+regB: rax
+Gadget 126:
+start address: 4258df
+end address: 4258e8
+regA: r15
+regB: rax
+Gadget 127:
+start address: 425c18
+end address: 425c1f
+regA: r15
+regB: rax
+Gadget 128:
+start address: 425c7c
+end address: 425c80
+regA: r15
+regB: rax
+Gadget 129:
+start address: 425de7
+end address: 425dee
+regA: r15
+regB: rax
+Gadget 130:
+start address: 425df9
+end address: 425e02
+regA: r15
+regB: rax
+Gadget 131:
+start address: 425e7b
+end address: 425e84
+regA: r15
+regB: rax
+Gadget 132:
+start address: 42606c
+end address: 426070
+regA: r15
+regB: rax
+Gadget 133:
+start address: 426109
+end address: 42610d
+regA: r15
+regB: rax
+Gadget 134:
+start address: 42613b
+end address: 42613e
+regA: rdi
+regB: rax
+Gadget 135:
+start address: 4261d7
+end address: 4261db
+regA: rdi
+regB: rcx
+Gadget 136:
+start address: 426328
+end address: 42632c
+regA: rsi
+regB: rax
+Gadget 137:
+start address: 426387
+end address: 42638a
+regA: r15
+regB: rax
+Gadget 138:
+start address: 426387
+end address: 42638e
+regA: r15
+regB: rax
+Gadget 139:
+start address: 4265bb
+end address: 4265be
+regA: rbx
+regB: rax
+Gadget 140:
+start address: 426708
+end address: 42670b
+regA: rbx
+regB: rax
+Gadget 141:
+start address: 426708
+end address: 426723
+regA: rbx
+regB: rax
+Gadget 142:
+start address: 426708
+end address: 426727
+regA: rbx
+regB: rax
+Gadget 143:
+start address: 4267bb
+end address: 4267be
+regA: rbx
+regB: rax
+Gadget 144:
+start address: 4268fd
+end address: 426900
+regA: rbx
+regB: rax
+Gadget 145:
+start address: 426931
+end address: 426934
+regA: rbx
+regB: rax
+Gadget 146:
+start address: 426931
+end address: 426938
+regA: rbx
+regB: rax
+Gadget 147:
+start address: 42694f
+end address: 426952
+regA: rbx
+regB: rax
+Gadget 148:
+start address: 42694f
+end address: 426956
+regA: rbx
+regB: rax
+Gadget 149:
+start address: 4269a4
+end address: 4269a7
+regA: rbx
+regB: rax
+Gadget 150:
+start address: 426b29
+end address: 426b2c
+regA: rbx
+regB: rax
+Gadget 151:
+start address: 426b7a
+end address: 426b7d
+regA: rbx
+regB: rax
+Gadget 152:
+start address: 426b7a
+end address: 426b81
+regA: rbx
+regB: rax
+Gadget 153:
+start address: 427035
+end address: 427045
+regA: rbx
+regB: rax
+Gadget 154:
+start address: 4270d4
+end address: 4270d7
+regA: rdi
+regB: rax
+Gadget 155:
+start address: 4270e9
+end address: 4270ed
+regA: rsi
+regB: rax
+Gadget 156:
+start address: 427104
+end address: 427108
+regA: rsi
+regB: rax
+Gadget 157:
+start address: 42711f
+end address: 427123
+regA: rsi
+regB: rax
+Gadget 158:
+start address: 42713a
+end address: 42713e
+regA: rsi
+regB: rax
+Gadget 159:
+start address: 427aee
+end address: 427af1
+regA: rdi
+regB: r14
+Gadget 160:
+start address: 427b02
+end address: 427b12
+regA: rbx
+regB: rax
+Gadget 161:
+start address: 427bd3
+end address: 427be3
+regA: rbx
+regB: rax
+Gadget 162:
+start address: 4282b5
+end address: 4282c5
+regA: rbx
+regB: rax
+Gadget 163:
+start address: 42e579
+end address: 42e587
+regA: rsi
+regB: rax
+Gadget 164:
+start address: 42e5bd
+end address: 42e5c0
+regA: rsi
+regB: rdi
+Gadget 165:
+start address: 42e5cc
+end address: 42e5cf
+regA: rsi
+regB: rdi
+Gadget 166:
+start address: 42e5d7
+end address: 42e5e0
+regA: rsi
+regB: rdi
+Gadget 167:
+start address: 42e616
+end address: 42e619
+regA: rsi
+regB: rdi
+Gadget 168:
+start address: 42e623
+end address: 42e630
+regA: rsi
+regB: rdi
+Gadget 169:
+start address: 42e64e
+end address: 42e651
+regA: rsi
+regB: rdi
+Gadget 170:
+start address: 42e65b
+end address: 42e65e
+regA: rsi
+regB: rdi
+Gadget 171:
+start address: 42e6a2
+end address: 42e6a6
+regA: rdx
+regB: rax
+Gadget 172:
+start address: 4314e7
+end address: 4314f8
+regA: rsi
+regB: rax
+Gadget 173:
+start address: 4315cf
+end address: 4315ec
+regA: rsi
+regB: rax
+Gadget 174:
+start address: 43414f
+end address: 434156
+regA: rsi
+regB: r12
+Gadget 175:
+start address: 43414f
+end address: 43415a
+regA: rsi
+regB: r12
+Gadget 176:
+start address: 434fdc
+end address: 434fed
+regA: r11
+regB: eax
+Gadget 177:
+start address: 43589f
+end address: 4358a2
+regA: rsi
+regB: r9
+Gadget 178:
+start address: 4358d7
+end address: 4358de
+regA: rsi
+regB: r8
+Gadget 179:
+start address: 435935
+end address: 435938
+regA: rsi
+regB: rsi
+

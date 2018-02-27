@@ -1,0 +1,560 @@
+*********************************
+*********************************
+*********************************
+*************RESULTS:************
+*********************************
+*********************************
+*********************************
+*********************************
+[regA, regB, regC] gadgets:
+*********************************
+Gadget 0:
+start address: 7df7
+end address: 7dfe
+regA: r8
+regB: rax
+regC: rdx
+Gadget 1:
+start address: 7ed7
+end address: 7ede
+regA: r8
+regB: rax
+regC: rdx
+Gadget 2:
+start address: 7f60
+end address: 7f67
+regA: r8
+regB: rax
+regC: r15
+Gadget 3:
+start address: 1d148
+end address: 1d153
+regA: r12
+regB: rcx
+regC: rdx
+Gadget 4:
+start address: 1d303
+end address: 1d310
+regA: rdi
+regB: rax
+regC: rdx
+Gadget 5:
+start address: 1d352
+end address: 1d36e
+regA: r12
+regB: rax
+regC: r14
+Gadget 6:
+start address: 1d64a
+end address: 1d655
+regA: r13
+regB: rdx
+regC: rax
+Gadget 7:
+start address: 1d64a
+end address: 1d658
+regA: r13
+regB: rdx
+regC: rax
+Gadget 8:
+start address: 1d68a
+end address: 1d6a0
+regA: r13
+regB: rsi
+regC: rbx
+Gadget 9:
+start address: 1d87c
+end address: 1d880
+regA: rdi
+regB: rax
+regC: rdx
+Gadget 10:
+start address: 1d990
+end address: 1d99b
+regA: r15
+regB: rdx
+regC: r13
+Gadget 11:
+start address: 1db21
+end address: 1db25
+regA: rdi
+regB: rcx
+regC: rdx
+Gadget 12:
+start address: 1e0c0
+end address: 1e0d3
+regA: r13
+regB: rax
+regC: r11
+Gadget 13:
+start address: 1ebf7
+end address: 1ec00
+regA: rsi
+regB: r11
+regC: r10
+Gadget 14:
+start address: 1ee99
+end address: 1eea4
+regA: r14
+regB: rax
+regC: r8
+Gadget 15:
+start address: 21248
+end address: 21259
+regA: rbx
+regB: edi
+regC: rsi
+Gadget 16:
+start address: 21328
+end address: 2133a
+regA: rbx
+regB: r8d
+regC: rsi
+Gadget 17:
+start address: 21378
+end address: 21391
+regA: rbx
+regB: edx
+regC: rsi
+Gadget 18:
+start address: 21408
+end address: 21419
+regA: rbx
+regB: edi
+regC: rsi
+*********************************
+*********************************
+*********************************
+[regA, regB] gadgets:
+*********************************
+Gadget 0:
+start address: 2ad1
+end address: 2ad4
+regA: rdi
+regB: r12
+Gadget 1:
+start address: 77ae
+end address: 77b5
+regA: rbx
+regB: rax
+Gadget 2:
+start address: 7d77
+end address: 7d7b
+regA: r8
+regB: rsi
+Gadget 3:
+start address: 7d7f
+end address: 7d83
+regA: r8
+regB: rsi
+Gadget 4:
+start address: 7e05
+end address: 7e18
+regA: r8
+regB: rdx
+Gadget 5:
+start address: 8248
+end address: 8256
+regA: rbx
+regB: rax
+Gadget 6:
+start address: 836d
+end address: 8371
+regA: rdi
+regB: rax
+Gadget 7:
+start address: 83b0
+end address: 83b7
+regA: rbx
+regB: rax
+Gadget 8:
+start address: 867a
+end address: 8681
+regA: rbx
+regB: rax
+Gadget 9:
+start address: 911b
+end address: 9123
+regA: r13
+regB: rax
+Gadget 10:
+start address: 9127
+end address: 912b
+regA: r13
+regB: rdx
+Gadget 11:
+start address: a9ba
+end address: a9bd
+regA: rdi
+regB: r12
+Gadget 12:
+start address: bc9a
+end address: bc9d
+regA: rdi
+regB: r15
+Gadget 13:
+start address: dc33
+end address: dc37
+regA: rbx
+regB: rdi
+Gadget 14:
+start address: dc33
+end address: dc3a
+regA: rbx
+regB: rdi
+Gadget 15:
+start address: de46
+end address: de49
+regA: rdi
+regB: rcx
+Gadget 16:
+start address: de8f
+end address: de9b
+regA: r12
+regB: rsi
+Gadget 17:
+start address: dfb0
+end address: dfb3
+regA: rdi
+regB: rax
+Gadget 18:
+start address: e092
+end address: e09d
+regA: rdi
+regB: rdx
+Gadget 19:
+start address: e0ce
+end address: e0d4
+regA: rbx
+regB: rdx
+Gadget 20:
+start address: e161
+end address: e165
+regA: rdi
+regB: rax
+Gadget 21:
+start address: e196
+end address: e19a
+regA: rbx
+regB: rdx
+Gadget 22:
+start address: e1ef
+end address: e1f3
+regA: rdi
+regB: rax
+Gadget 23:
+start address: e20e
+end address: e212
+regA: rbx
+regB: rdx
+Gadget 24:
+start address: e281
+end address: e28a
+regA: rdi
+regB: rax
+Gadget 25:
+start address: e975
+end address: e980
+regA: r13
+regB: rax
+Gadget 26:
+start address: efb2
+end address: efb5
+regA: rsi
+regB: rbx
+Gadget 27:
+start address: f31d
+end address: f344
+regA: rbx
+regB: rsi
+Gadget 28:
+start address: fbeb
+end address: fbf6
+regA: rdi
+regB: r15
+Gadget 29:
+start address: fbeb
+end address: fbfb
+regA: rdi
+regB: r15
+Gadget 30:
+start address: fc72
+end address: fc81
+regA: r15
+regB: ecx
+Gadget 31:
+start address: fc72
+end address: fc84
+regA: r15
+regB: ecx
+Gadget 32:
+start address: fd67
+end address: fd81
+regA: r15
+regB: edx
+Gadget 33:
+start address: fd67
+end address: fd85
+regA: r15
+regB: edx
+Gadget 34:
+start address: 10078
+end address: 10091
+regA: rdi
+regB: rax
+Gadget 35:
+start address: 10078
+end address: 1009f
+regA: rdi
+regB: rax
+Gadget 36:
+start address: 10078
+end address: 100a3
+regA: rdi
+regB: rax
+Gadget 37:
+start address: 101a0
+end address: 101a3
+regA: rdx
+regB: rdx
+Gadget 38:
+start address: 10450
+end address: 10467
+regA: rdi
+regB: rax
+Gadget 39:
+start address: 105e8
+end address: 105ef
+regA: rsi
+regB: rbx
+Gadget 40:
+start address: 12d23
+end address: 12d27
+regA: rbx
+regB: rax
+Gadget 41:
+start address: 14406
+end address: 14411
+regA: rdx
+regB: rcx
+Gadget 42:
+start address: 146b2
+end address: 146b9
+regA: r15
+regB: rsi
+Gadget 43:
+start address: 146bc
+end address: 146bf
+regA: r15
+regB: rcx
+Gadget 44:
+start address: 14873
+end address: 1487c
+regA: r14
+regB: rcx
+Gadget 45:
+start address: 14a75
+end address: 14a7c
+regA: rbx
+regB: rax
+Gadget 46:
+start address: 14a7f
+end address: 14a82
+regA: rbx
+regB: rdx
+Gadget 47:
+start address: 14b11
+end address: 14b17
+regA: rbx
+regB: rdx
+Gadget 48:
+start address: 14d74
+end address: 14d7c
+regA: r13
+regB: rax
+Gadget 49:
+start address: 14d80
+end address: 14d84
+regA: r13
+regB: rdx
+Gadget 50:
+start address: 1511f
+end address: 1512e
+regA: rbx
+regB: rsi
+Gadget 51:
+start address: 1511f
+end address: 15135
+regA: rbx
+regB: rsi
+Gadget 52:
+start address: 1511f
+end address: 1513c
+regA: rbx
+regB: rsi
+Gadget 53:
+start address: 1511f
+end address: 15144
+regA: rbx
+regB: rsi
+Gadget 54:
+start address: 16840
+end address: 1684c
+regA: rdi
+regB: rdx
+Gadget 55:
+start address: 16953
+end address: 1695f
+regA: rdi
+regB: rdx
+Gadget 56:
+start address: 17569
+end address: 1756d
+regA: rdx
+regB: rcx
+Gadget 57:
+start address: 175a5
+end address: 175a9
+regA: rdx
+regB: rcx
+Gadget 58:
+start address: 179cc
+end address: 179d0
+regA: rbx
+regB: rax
+Gadget 59:
+start address: 179d4
+end address: 179d8
+regA: rbx
+regB: rdx
+Gadget 60:
+start address: 179ea
+end address: 179f2
+regA: rbx
+regB: rax
+Gadget 61:
+start address: 179f6
+end address: 179fd
+regA: rbx
+regB: rdx
+Gadget 62:
+start address: 17bc8
+end address: 17bcc
+regA: rdx
+regB: rcx
+Gadget 63:
+start address: 17bfc
+end address: 17c00
+regA: rdx
+regB: rcx
+Gadget 64:
+start address: 198ae
+end address: 198b1
+regA: rbx
+regB: rax
+Gadget 65:
+start address: 19903
+end address: 19908
+regA: r12
+regB: rax
+Gadget 66:
+start address: 19ab8
+end address: 19ac8
+regA: r9
+regB: rax
+Gadget 67:
+start address: 1b07a
+end address: 1b07d
+regA: rbx
+regB: rax
+Gadget 68:
+start address: 1d2bb
+end address: 1d2c9
+regA: rbx
+regB: rdx
+Gadget 69:
+start address: 1d2bb
+end address: 1d2cc
+regA: rbx
+regB: rdx
+Gadget 70:
+start address: 1d46a
+end address: 1d46e
+regA: rdi
+regB: rax
+Gadget 71:
+start address: 1d994
+end address: 1d9b0
+regA: r14
+regB: rsi
+Gadget 72:
+start address: 1ec78
+end address: 1ec7d
+regA: rsi
+regB: rax
+Gadget 73:
+start address: 1ed1c
+end address: 1ed2b
+regA: r13
+regB: rdx
+Gadget 74:
+start address: 1ed38
+end address: 1ed47
+regA: r13
+regB: rdx
+Gadget 75:
+start address: 1ef60
+end address: 1ef64
+regA: rdi
+regB: rax
+Gadget 76:
+start address: 1f045
+end address: 1f04a
+regA: r12
+regB: rax
+Gadget 77:
+start address: 1f069
+end address: 1f073
+regA: r12
+regB: rax
+Gadget 78:
+start address: 20762
+end address: 20768
+regA: rbx
+regB: rdx
+Gadget 79:
+start address: 2168c
+end address: 216a5
+regA: rdi
+regB: rax
+Gadget 80:
+start address: 2168c
+end address: 216a8
+regA: rdi
+regB: rax
+Gadget 81:
+start address: 21b0c
+end address: 21b20
+regA: rdi
+regB: rax
+Gadget 82:
+start address: 21b0c
+end address: 21b22
+regA: rdi
+regB: rax
+Gadget 83:
+start address: 21b0c
+end address: 21b25
+regA: rdi
+regB: rax
+Gadget 84:
+start address: 21b0c
+end address: 21b29
+regA: rdi
+regB: rax
+Gadget 85:
+start address: 22003
+end address: 2200e
+regA: rdi
+regB: rdi
+

@@ -1,0 +1,709 @@
+*********************************
+*********************************
+*********************************
+*************RESULTS:************
+*********************************
+*********************************
+*********************************
+*********************************
+*************gadgets:************
+*********************************
+*********************************
+gadget 0:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x0>
+<BV64 0x100>
+<BV64 mem_22a5d8_42_64>
+<BV64 0xfffffffffffffff8 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 1:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x0>
+<BV64 0x100>
+<BV64 mem_22a5d8_42_64>
+<BV64 0xfffffffffffffff8 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 2:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0xffffffffffffff98 + rsp_14_64>
+<BV64 0x100>
+<BV64 init_r10_8_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 3:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0xffffffffffffff90 + rsp_14_64>
+<BV64 0x100>
+<BV64 init_r9_7_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 4:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0xffffffffffffff88 + rsp_14_64>
+<BV64 0x100>
+<BV64 init_r8_6_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 5:
+*********************************
+address:
+0x103a5L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_22a4c0_46_64>
+<BV64 0x100>
+<BV64 init_r10_8_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_r12_38_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 6:
+*********************************
+address:
+0x103a5L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_22a4c0_48_64>
+<BV64 0x100>
+<BV64 init_r9_7_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_r12_38_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 7:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_a7fffffffffff400_54_64>
+<BV64 0xffffffffffffff98 + rsp_14_64>
+<BV64 init_r10_8_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_50_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 8:
+*********************************
+address:
+0x103a5L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_22a4c0_56_64>
+<BV64 0x100>
+<BV64 init_r8_6_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_r12_38_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 9:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 init_rsi_5_64[7:0] .. init_rdi_4_64[31:0] .. init_r12_10_64[31:8]>
+<BV64 0xffffffffffffff98 + rsp_14_64>
+<BV64 init_r10_8_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_52_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 10:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x10102>
+<BV64 0xffffffffffffff90 + rsp_14_64>
+<BV64 init_r9_7_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_58_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 11:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_ffffffff80000008_63_64>
+<BV64 0xffffffffffffff90 + rsp_14_64>
+<BV64 init_r9_7_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_60_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 12:
+*********************************
+address:
+0x103a5L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 init_rsi_5_64[7:0] .. init_rdi_4_64[31:0] .. init_r12_10_64[31:8]>
+<BV64 0x100>
+<BV64 init_r10_8_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_52_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_r12_38_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 13:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_ffffffe000000008_72_64>
+<BV64 0xffffffffffffff88 + rsp_14_64>
+<BV64 init_r8_6_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_64_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 14:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_ffffffffff800408_76_64>
+<BV64 (0xfffffffffffffec7 + rsp_14_64)[63:4] .. 0#4>
+<BV64 mem_22a5d8_42_64>
+<BV64 0xfffffffffffffff8 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_66_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 15:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_fffc000000000008_80_64>
+<BV64 (0xfffffffffffffec7 + rsp_14_64)[63:4] .. 0#4>
+<BV64 mem_22a5d8_42_64>
+<BV64 0xfffffffffffffff8 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_68_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 16:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_fff8000000000008_82_64>
+<BV64 0xffffffffffffff88 + rsp_14_64>
+<BV64 init_r8_6_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_70_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 17:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_ff80000040000008_84_64>
+<BV64 (0xfffffffffffffec7 + rsp_14_64)[63:4] .. 0#4>
+<BV64 mem_22a5d8_42_64>
+<BV64 0xfffffffffffffff8 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_74_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 18:
+*********************************
+address:
+0x7120L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_ffffffffffcec000_86_64>
+<BV64 (0xfffffffffffffec7 + rsp_14_64)[63:4] .. 0#4>
+<BV64 mem_22a5d8_42_64>
+<BV64 0xfffffffffffffff8 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_78_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 19:
+*********************************
+address:
+0x103a5L
+gtype:
+3
+regs affected:
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_ffffffff80000008_63_64>
+<BV64 0x100>
+<BV64 init_r9_7_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:31] .. ocall_rsi_33_64[31:0] .. 0#4 + mem_22a5a0_60_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_r12_38_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 20:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0xffffffffffffff60 + rsp_14_64>
+<BV64 0x100>
+<BV64 init_rsi_5_64>
+<BV64 0xffffffffffffff58 + rsp_14_64>
+<BV64 0xffffffffffffff48 + rsp_14_64>
+<BV64 0xdeaddeadbeefbeef>
+<BV64 ocall_r8_34_64>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+gadget 21:
+*********************************
+address:
+0x10220L
+gtype:
+2
+regs affected:
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 mem_a7fffffffffff400_54_64>
+<BV64 0xffffffffffffff98 + rsp_14_64>
+<BV64 0xffffffffffffff98 + rsp_14_64>
+<BV64 0x0>
+<BV64 0xfffffffffffffef8 + rsp_14_64>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 ocall_r9_35_64>
+<BV64 ocall_r10_36_64>
+<BV64 ocall_r11_37_64>
+<BV64 ocall_rsi_33_64>
+<BV64 ocall_r13_39_64>
+<BV64 ocall_r14_40_64>
+<BV64 ocall_r15_41_64>
+*********************************
+*********************************
+16.052549 seconds.
+*********************************
+*********************************
+

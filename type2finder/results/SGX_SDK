@@ -1,0 +1,160 @@
+*********************************
+*********************************
+*********************************
+*************RESULTS:************
+*********************************
+*********************************
+*********************************
+*********************************
+[regA, regB, regC] gadgets:
+*********************************
+Gadget 0:
+start address: 404f0a
+end address: 404f15
+regA: rsi
+regB: r9d
+regC: rdi
+Gadget 1:
+start address: 405119
+end address: 405124
+regA: r8
+regB: r9d
+regC: rdi
+Gadget 2:
+start address: 406d6b
+end address: 406d76
+regA: rdx
+regB: r12d
+regC: rsi
+Gadget 3:
+start address: 4072d9
+end address: 4072e4
+regA: r8
+regB: edi
+regC: rbx
+Gadget 4:
+start address: 4073af
+end address: 4073b9
+regA: rsi
+regB: edi
+regC: rbx
+Gadget 5:
+start address: 407c41
+end address: 407c4c
+regA: rsi
+regB: r10d
+regC: rbx
+Gadget 6:
+start address: 418330
+end address: 418337
+regA: rdx
+regB: ecx
+regC: r12
+Gadget 7:
+start address: 4185e8
+end address: 4185ef
+regA: rdx
+regB: ecx
+regC: r12
+Gadget 8:
+start address: 41947a
+end address: 419482
+regA: rdi
+regB: rax
+regC: r10
+*********************************
+*********************************
+*********************************
+[regA, regB] gadgets:
+*********************************
+Gadget 0:
+start address: 400f71
+end address: 400f7d
+regA: r14
+regB: rdi
+Gadget 1:
+start address: 400f87
+end address: 400f9b
+regA: r14
+regB: rdi
+Gadget 2:
+start address: 400fbe
+end address: 400fca
+regA: r14
+regB: rdi
+Gadget 3:
+start address: 400fef
+end address: 400ffb
+regA: r14
+regB: rdi
+Gadget 4:
+start address: 404b33
+end address: 404b37
+regA: rbx
+regB: rdx
+Gadget 5:
+start address: 404b33
+end address: 404b3e
+regA: rbx
+regB: rdx
+Gadget 6:
+start address: 404cd8
+end address: 404cdf
+regA: rdi
+regB: r8
+Gadget 7:
+start address: 4055d7
+end address: 4055db
+regA: r8
+regB: rax
+Gadget 8:
+start address: 40583c
+end address: 405840
+regA: r10
+regB: rax
+Gadget 9:
+start address: 407942
+end address: 407960
+regA: r14
+regB: r8
+Gadget 10:
+start address: 40b1e7
+end address: 40b1f8
+regA: rsi
+regB: rax
+Gadget 11:
+start address: 40b2cf
+end address: 40b2ec
+regA: rsi
+regB: rax
+Gadget 12:
+start address: 417e7f
+end address: 417e86
+regA: rsi
+regB: r12
+Gadget 13:
+start address: 417e7f
+end address: 417e8a
+regA: rsi
+regB: r12
+Gadget 14:
+start address: 418efc
+end address: 418f0d
+regA: r11
+regB: eax
+Gadget 15:
+start address: 41984f
+end address: 419852
+regA: rsi
+regB: r9
+Gadget 16:
+start address: 419887
+end address: 41988e
+regA: rsi
+regB: r8
+Gadget 17:
+start address: 4198e5
+end address: 4198e8
+regA: rsi
+regB: rsi
+

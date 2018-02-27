@@ -1,0 +1,586 @@
+*********************************
+*********************************
+*********************************
+*************RESULTS:************
+*********************************
+*********************************
+*********************************
+*********************************
+*************gadgets:************
+*********************************
+*********************************
+gadget 0:
+*********************************
+address:
+0x153f5L
+gtype:
+3
+regs affected:
+rdx
+rdi
+rsi
+r8
+regs:
+<BV64 0xfffffffc>
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 init_rdx_3_64>
+<BV64 Reverse(0x0#32 .. Reverse(init_rdi_4_64)[31:0])>
+<BV64 init_rsi_5_64>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+*********************************
+gadget 1:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x0>
+<BV64 0x100>
+<BV64 mem_22a5d8_60_64>
+<BV64 0x319a800>
+<BV64 0xfffffffffffffff8 + mem_ffffffffe0000000_26_64>
+<BV64 0xfffffffffffffff8 + mem_ffffffffe0000000_26_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r13_11_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 2:
+*********************************
+address:
+0x101e4L
+gtype:
+3
+regs affected:
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 0x0>
+<BV64 0x100>
+<BV64 mem_22a5d8_60_64>
+<BV64 0x319a800>
+<BV64 0xfffffffffffffff8 + mem_ffffffffe0000000_26_64>
+<BV64 0xfffffffffffffff8 + mem_ffffffffe0000000_26_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r13_11_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 3:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+rdi
+r8
+r12
+r13
+r14
+regs:
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 init_rdx_3_64>
+<BV64 0x0>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 4:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+rax
+rdi
+rsi
+r8
+r12
+r13
+r14
+regs:
+<BV64 Reverse(0#7 .. __invert__((if (init_rdx_3_64 <= mem_422ef00_80_64) then 0 else 1)) .. 0xef220400000000#56)>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 init_rdx_3_64>
+<BV64 init_rdx_3_64>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 5:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+rdi
+r8
+r12
+r13
+r14
+regs:
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 init_rdx_3_64>
+<BV64 0x0>
+<BV64 __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 6:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+rax
+rax
+rdi
+rsi
+r8
+r12
+r13
+r14
+regs:
+<BV64 Reverse(0#7 .. __invert__((if (init_rdx_3_64 <= __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))) then 0 else 1)) .. 0xef220400000000#56)>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 init_rdx_3_64>
+<BV64 init_rdx_3_64>
+<BV64 __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 7:
+*********************************
+address:
+0x153edL
+gtype:
+3
+regs affected:
+rdi
+rsi
+r8
+regs:
+<BV64 0xfffffffa>
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 init_rdx_3_64>
+<BV64 init_rdx_3_64>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+*********************************
+gadget 8:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+r8
+r12
+r13
+r14
+regs:
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 0x0>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 9:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+r8
+r12
+r13
+r14
+regs:
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 0x0>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 10:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+r8
+r12
+r13
+r14
+regs:
+<BV64 Reverse(0#7 .. __invert__((if (rsp_14_64 <= mem_422ef00_82_64) then 0 else 1)) .. 0xef220400000000#56)>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 11:
+*********************************
+address:
+0x153edL
+gtype:
+3
+regs affected:
+rdi
+rsi
+r8
+regs:
+<BV64 0xfffffffa>
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 init_rdx_3_64>
+<BV64 init_rdx_3_64>
+<BV64 __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+*********************************
+gadget 12:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+r8
+r12
+r13
+r14
+regs:
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 0x0>
+<BV64 __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 13:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+r8
+r12
+r13
+r14
+regs:
+<BV64 Reverse(0#7 .. __invert__((if (rsp_14_64 <= mem_422ef00_80_64) then 0 else 1)) .. 0xef220400000000#56)>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 init_rbx_1_64 + (0xffffffffffffffff * mem_7f000008_20_64)>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 14:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+r8
+r12
+r13
+r14
+regs:
+<BV64 0x0>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 0x0>
+<BV64 __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 15:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+rax
+r8
+r12
+r13
+r14
+regs:
+<BV64 Reverse(0#7 .. __invert__((if (rsp_14_64 <= __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))) then 0 else 1)) .. 0xef220400000000#56)>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 16:
+*********************************
+address:
+0x12ef3L
+gtype:
+3
+regs affected:
+rax
+r8
+r12
+r13
+r14
+regs:
+<BV64 Reverse(0#7 .. __invert__((if (rsp_14_64 <= __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))) then 0 else 1)) .. 0xef220400000000#56)>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 0x422ef08>
+<BV64 rsp_14_64>
+<BV64 rsp_14_64>
+<BV64 __add__(0x7f000000, init_rbx_1_64, (0xffffffffffffffff * mem_7f000008_20_64))>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 0x0>
+<BV64 init_rdi_4_64[63:32] .. 0x0#32>
+<BV64 init_rdx_3_64>
+<BV64 init_rsi_5_64>
+<BV64 0x0>
+*********************************
+gadget 17:
+*********************************
+address:
+0x10d07L
+gtype:
+3
+regs affected:
+rbx
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 if (mem_fff0000000000000_172_64 == 0x0) then 0x0 else mem_fff0000000000000_172_64>
+<BV64 init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:0] .. 0#4 + mem_22a5a0_144_64>
+<BV64 0x0>
+<BV64 0x1>
+<BV64 init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:0] .. 0#4 + mem_22a5a0_144_64>
+<BV64 0xfffffffffffffff8 + mem_ffffffffe0000000_26_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r13_11_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 18:
+*********************************
+address:
+0x10d07L
+gtype:
+3
+regs affected:
+rbx
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 if (mem_fffffff800000000_174_64 == 0x0) then 0x0 else mem_fffffff800000000_174_64>
+<BV64 init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:0] .. 0#4 + mem_22a5a0_148_64>
+<BV64 0x0>
+<BV64 0x1>
+<BV64 init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:0] .. 0#4 + mem_22a5a0_148_64>
+<BV64 0xfffffffffffffff8 + mem_ffffffffe0000000_26_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r13_11_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+*********************************
+gadget 19:
+*********************************
+address:
+0x10d07L
+gtype:
+3
+regs affected:
+rbx
+rdi
+r8
+r9
+r10
+r11
+r12
+r13
+r14
+r15
+regs:
+<BV64 if (mem_fffffffe00108000_176_64 == 0x0) then 0x0 else mem_fffffffe00108000_176_64>
+<BV64 init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:0] .. 0#4 + mem_22a5a0_150_64>
+<BV64 0x0>
+<BV64 0x1>
+<BV64 init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:31] .. init_rsi_5_64[31:0] .. 0#4 + mem_22a5a0_150_64>
+<BV64 0xfffffffffffffff8 + mem_ffffffffe0000000_26_64>
+<BV64 init_r8_6_64>
+<BV64 init_r9_7_64>
+<BV64 init_r10_8_64>
+<BV64 init_r11_9_64>
+<BV64 init_rsi_5_64>
+<BV64 init_r13_11_64>
+<BV64 init_r14_12_64>
+<BV64 init_r15_13_64>
+
