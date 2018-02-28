@@ -13,7 +13,7 @@ SgxPectre Attacks are a new type of side-channel attacks against SGX enclaves.
 But the consequences of SgxPectre Attacks are far more concerning. We show that SgxPectre Attacks can completely compromise the confidentiality of SGX enclaves. In particular, because vulnerable code patterns exist in most SGX runtime libraries (e.g., Intel SGX SDK, Rust-SGX, Graphene-SGX) and are difficult to  be eliminated, the adversary could perform SgxPectre Attacks against *any* enclave programs. We demonstrate end-to-end attacks to show that the adversary could learn the content of the enclave memory, as well as its register values in such attacks. 
 
 ## Research papers
-* [SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution](https://arxiv.org/abs/1802.09085), *Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai*, Feb. 2018.
+* [SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution](http://web.cse.ohio-state.edu/~zhang.834/papers/SgxPectre.pdf), *Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai*, Feb. 2018.
 
 ## What is the exploited vulnerability
 Similar to their non-SGX counterparts, SgxPectre attacks exploit the race condition between the injected, speculatively executed memory references and the latency of the branch resolution. Two hardware features enable SgxPectre attacks:
@@ -28,12 +28,12 @@ In order to exploit the hardware vulnerability, two types of code patterns are r
 ##  Who is vulnerable
 Because there are vulnerable code patterns inside the SDK runtime libraries, any code developed with Intel's official SGX SDK will be impacted by the attacks. *It doesn't matter how the enclave program is implemented.*
 
-We also studied a few other runtime libraries in the [paper](https://arxiv.org/abs/1802.09085); such vulnerable code patterns are very common.
+We also studied a few other runtime libraries in the paper; such vulnerable code patterns are very common.
 
 ## What are the solutions
-Our [empirical evaluation](https://arxiv.org/abs/1802.09085) on a patched Skylake processor (i5-6200U) suggests that Indirect Branch Restricted Speculation (IBRS) can effectively address SgxPectre attacks. IBRS restricts the speculation of indirect branches. By default, on machines that support IBRS, branch prediction inside the SGX enclave cannot be controlled by software running outside. 
+Our empirical evaluation on a patched Skylake processor (i5-6200U) suggests that Indirect Branch Restricted Speculation (IBRS) can effectively address SgxPectre attacks. IBRS restricts the speculation of indirect branches. By default, on machines that support IBRS, branch prediction inside the SGX enclave cannot be controlled by software running outside. 
 
-However, since existing SGX processors need to apply microcode updates to support IBRS and the microcode patch can be reverted by a system administrator, enclave owners have to verify CPUSVN during their remote attestation. Moreover, we also suggest developers of runtime libraries to scrutinize their code to remove exploitable gadgets in prevention of other potential ways of poisoning the BTB in the future. We have developed a software tool to automatically scan enclave programs and search for vulnerable code patterns. The detail of the tool can be found in our [paper](https://arxiv.org/abs/1802.09085).  
+However, since existing SGX processors need to apply microcode updates to support IBRS and the microcode patch can be reverted by a system administrator, enclave owners have to verify CPUSVN during their remote attestation. Moreover, we also suggest developers of runtime libraries to scrutinize their code to remove exploitable gadgets in prevention of other potential ways of poisoning the BTB in the future. We have developed a software tool to automatically scan enclave programs and search for vulnerable code patterns. The detail of the tool can be found in our paper.  
 
 ## Demo
 In this demo, we show that SgxPectre attacks can read the the GPRSGX region of the State Save Area (SSA) after an AEX of the targeted enclave. Because the register values inside the enclave are stored in the SSA region, every register can be read by the SgxPectre attacks.
