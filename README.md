@@ -33,9 +33,7 @@ We also studied a few other runtime libraries in the [paper](https://arxiv.org/a
 ## What are the solutions
 Our [empirical evaluation](https://arxiv.org/abs/1802.09085) on a patched Skylake processor (i5-6200U) suggests that Indirect Branch Restricted Speculation (IBRS) can effectively address SgxPectre attacks. IBRS restricts the speculation of indirect branches. By default, on machines that support IBRS, branch prediction inside the SGX enclave cannot be controlled by software running outside. 
 
-However, since existing SGX processors need to apply microcode updates to support IBRS and the microcode patch can be reverted by a system administrator easily, enclave owners have to completely trust the system administrators of the SGX-enabled platform. *It means the current SGX-enabled processors do not provide any security guarantee against a dishonest (cloud) service provider or a malicious insider.*
-
-Therefore, we developed a software tool to automatically scan enclave programs and search for vulnerable code patterns. The detail of the tool can be found in our [paper](https://arxiv.org/abs/1802.09085).  
+However, since existing SGX processors need to apply microcode updates to support IBRS and the microcode patch can be reverted by a system administrator, enclave owners have to verify CPUSVN during their remote attestation. Moreover, we also suggest developers of runtime libraries to scrutinize their code to remove exploitable gadgets in prevention of other potential ways of poisoning the BTB in the future. We have developed a software tool to automatically scan enclave programs and search for vulnerable code patterns. The detail of the tool can be found in our [paper](https://arxiv.org/abs/1802.09085).  
 
 ## Demo
 In this demo, we show that SgxPectre attacks can read the the GPRSGX region of the State Save Area (SSA) after an AEX of the targeted enclave. Because the register values inside the enclave are stored in the SSA region, every register can be read by the SgxPectre attacks.
