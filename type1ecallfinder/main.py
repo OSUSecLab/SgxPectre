@@ -53,6 +53,7 @@ class Info(object):
 
 		self.enclulist = []
 		self.enclaveentry = None
+		self.abortfunction = None
 
 		self.state = None
 		self.emptystate = None
@@ -70,6 +71,8 @@ class Info(object):
 		self.controllableregs = ["rbx","rdx","rdi","rsi","r8","r9","r10","r11","r12","r13","r14","r15"]
 		self.tstart = 0
 		self.tend = 0
+
+
 		
 global info
 info = Info()
@@ -115,10 +118,21 @@ def findenclaveentry():
 			break
 	f1.close()
 
+def findabortfunction():
+	f1 = open(info.asmfile,'r')
+	lines1 = f1.readlines()
+	for line1 in lines1:
+		if "<abort>:" in line1:
+			info.abortfunction = getinsaddr(line1, "<")
+			break
+	f1.close()
+
+
 
 def findaddresses():
 	findenclu()
 	findenclaveentry()
+	findabortfunction()
 
 
 #
@@ -724,25 +738,38 @@ def findgadget():
 		# error handling path
 		if info.state.addr == 0x403480:
 			print "stop at 0x403480"
+			if len(info.states) == 0:
+				printresults()
 			continue
 
 		# error handling path
 		if info.state.addr == 0x4053d0:
 			print "stop at 0x4053d0"
+			if len(info.states) == 0:
+				printresults()
 			continue
 
 
 		# abort path
 		if info.state.addr == 0x404c6b:
 			print "stop at 0x404c6b"
+			if len(info.states) == 0:
+				printresults()
 			continue
 
 		# abort path
 		if info.state.addr == 0x4068b8:
 			print "stop at 0x4068b8"
+			if len(info.states) == 0:
+				printresults()
 			continue
 
-
+		# abort path
+		if info.state.addr == info.abortfunction:
+			print "stop at abort funciton"
+			if len(info.states) == 0:
+				printresults()
+			continue
 
 
 

@@ -53,6 +53,7 @@ class Info(object):
 
 		self.enclulist = []
 		self.enclaveentry = None
+		self.abortfunction = None
 
 		self.state = None
 		self.emptystate = None
@@ -130,9 +131,53 @@ def findenclaveentry():
 	f1.close()
 
 
+def findabortfunction():
+	f1 = open(info.asmfile,'r')
+	lines1 = f1.readlines()
+	for line1 in lines1:
+		if "<abort>:" in line1:
+			info.abortfunction = getinsaddr(line1, "<")
+			break
+	f1.close()
+
+
+
 def findaddresses():
 	findenclu()
 	findenclaveentry()
+	findabortfunction()
+
+def infunction(addr, func):
+
+	funaddr = 0
+	flag = 0
+
+	f1 = open(info.asmfile,'r')
+	lines1 = f1.readlines()
+	for line1 in lines1:
+		if "<" + func + ">:" in line1:
+			funaddr = getinsaddr(line1, "<")
+			flag = 1
+			continue
+
+		if flag == 1 and "<" in line1 and ">:" in line1:
+			funaddr1 = getinsaddr(line1, "<")
+			flag1 = 1
+			if addr >= funaddr and addr <= funaddr1:
+				return True
+			else:
+				return False
+
+	if flag == 1 and flag1 == 0 and addr >= funaddr:
+				return True
+	f1.close()
+	return False
+
+
+
+
+
+
 
 
 #
@@ -533,7 +578,6 @@ def makeregistersymbolic(s):
 	info.state.regs.r15 = info.state.se.BVS(s + "r15", 64)
 
 
-
 def findgadget():
 	info.tstart = time.time()
 
@@ -776,6 +820,10 @@ def findgadget():
 			print "stop at 0x4053d0"
 			continue
 
+
+
+
+
 		# abort path
 		if info.state.addr == 0x404c6b:
 			print "stop at 0x404c6b"
@@ -785,6 +833,9 @@ def findgadget():
 		if info.state.addr == 0x4068ab:
 			print "stop at 0x4068ab"
 			continue
+
+
+
 
 		#lastrbp = info.state.se.BVS("lastrbp", 64)
 
@@ -852,6 +903,14 @@ def findgadget():
 
 		# if enclu instruction
 		else:
+			# EEXIT
+			if info.state.regs.rax.concrete:
+				if info.state.se.eval(info.state.regs.rax) == 0x4 \
+					and infunction(info.state.addr, "enclave_entry"):
+					print "stop at finish eexit"
+					continue
+
+
 			info.firstocallmet = 1
 			info.encluflag = 0
 			# set rip register
