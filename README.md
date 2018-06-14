@@ -13,7 +13,7 @@ SgxPectre Attacks are a new type of side-channel attacks against SGX enclaves.
 But the consequences of SgxPectre Attacks are far more concerning. We show that SgxPectre Attacks can completely compromise the confidentiality of SGX enclaves. In particular, because vulnerable code patterns exist in most SGX runtime libraries (e.g., Intel SGX SDK, Rust-SGX, Graphene-SGX) and are difficult to  be eliminated, the adversary could perform SgxPectre Attacks against *any* enclave programs. We demonstrate end-to-end attacks to show that the adversary could learn the content of the enclave memory, as well as its register values in such attacks. Most importantly, we have applied SgxPectre Attacks to steal seal keys and attestation keys from Intel signed quoting enclaves. The seal key can be used to decrypt sealed storage outside the enclaves, and the attestation key can be used to forge attestation signatures.
 
 ## Research papers
-* [SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution](http://web.cse.ohio-state.edu/~zhang.834/papers/SgxPectre.pdf), *Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai*, Feb. 2018.
+* [SgxPectre Attacks: Stealing Intel Secrets from SGX Enclaves via Speculative Execution](https://arxiv.org/pdf/1802.09085.pdf), *Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai*, Jun. 2018.
 
 ## What is the exploited vulnerability
 Similar to their non-SGX counterparts, SgxPectre attacks exploit the race condition between the injected, speculatively executed memory references and the latency of the branch resolution. Two hardware features enable SgxPectre attacks:
