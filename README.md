@@ -1,6 +1,6 @@
 
 # SgxPectre Attacks
-Practical Spectre attacks against Intel's SGX enclaves.
+Practical Spectre attacks against Intel's SGX enclaves, including Intel signed privileged enclaves, e.g., quoting enclaves.
 
 ## Overview 
 SgxPectre Attacks resulted from a research project conducted by security researchers at The Ohio State University.  The study systematically explores the insecurity of Intel SGX due to branch target injection attacks and micro-architectural side-channel attacks. The research is one of a series of [research projects](http://web.cse.ohio-state.edu/~zhang.834/projects/sgx-side-channels.html) on SGX side channels  in which OSU researchers have been involved.
@@ -10,7 +10,7 @@ Software Guard eXtensions (SGX) is a hardware extension available in recent Inte
 However, it has already been demonstrated that by observing execution traces of an enclave program left in the CPU caches, branch target buffers, DRAM's row buffer contention, page-table entries, and page-fault exception handlers, a side-channel adversary with system privileges may *infer* sensitive data from the enclaves. These traditional side-channel attacks are only feasible if the enclave program already has secret-dependent memory access patterns.
 
 SgxPectre Attacks are a new type of side-channel attacks against SGX enclaves.
-But the consequences of SgxPectre Attacks are far more concerning. We show that SgxPectre Attacks can completely compromise the confidentiality of SGX enclaves. In particular, because vulnerable code patterns exist in most SGX runtime libraries (e.g., Intel SGX SDK, Rust-SGX, Graphene-SGX) and are difficult to  be eliminated, the adversary could perform SgxPectre Attacks against *any* enclave programs. We demonstrate end-to-end attacks to show that the adversary could learn the content of the enclave memory, as well as its register values in such attacks. 
+But the consequences of SgxPectre Attacks are far more concerning. We show that SgxPectre Attacks can completely compromise the confidentiality of SGX enclaves. In particular, because vulnerable code patterns exist in most SGX runtime libraries (e.g., Intel SGX SDK, Rust-SGX, Graphene-SGX) and are difficult to  be eliminated, the adversary could perform SgxPectre Attacks against *any* enclave programs. We demonstrate end-to-end attacks to show that the adversary could learn the content of the enclave memory, as well as its register values in such attacks. Most importantly, we have applied SgxPectre Attacks to steal seal keys and attestation keys from Intel signed quoting enclaves. The seal key can be used to decrypt sealed storage outside the enclaves, and the attestation key can be used to forge attestation signatures.
 
 ## Research papers
 * [SgxPectre Attacks: Leaking Enclave Secrets via Speculative Execution](http://web.cse.ohio-state.edu/~zhang.834/papers/SgxPectre.pdf), *Guoxing Chen, Sanchuan Chen, Yuan Xiao, Yinqian Zhang, Zhiqiang Lin, Ten H. Lai*, Feb. 2018.
@@ -33,7 +33,7 @@ We also studied a few other runtime libraries in the paper; such vulnerable code
 ## What are the solutions
 Our empirical evaluation on a patched Skylake processor (i5-6200U) suggests that Indirect Branch Restricted Speculation (IBRS) can effectively address SgxPectre attacks. IBRS restricts the speculation of indirect branches. By default, on machines that support IBRS, branch prediction inside the SGX enclave cannot be controlled by software running outside. 
 
-However, since existing SGX processors need to apply microcode updates to support IBRS and the microcode patch can be reverted by a system administrator, enclave owners have to verify CPUSVN during their remote attestation. Moreover, we also suggest developers of runtime libraries to scrutinize their code to remove exploitable gadgets in prevention of other potential ways of poisoning the BTB in the future. We have developed a software tool to automatically scan enclave programs and search for vulnerable code patterns. The detail of the tool can be found in our paper.  
+However, since existing SGX processors need to apply microcode updates to support IBRS and the microcode patch can be reverted by a system administrator, enclave owners have to verify CPUSVN during their remote attestation. Moreover, due to the possible exposure of seal keys, enclave owners should not trust any legacy secrets sealed using an out-dated CPUSVN. And we also suggest developers of runtime libraries to scrutinize their code to remove exploitable gadgets in prevention of other potential ways of poisoning the BTB in the future. We have developed a software tool to automatically scan enclave programs and search for vulnerable code patterns. The detail of the tool can be found in our paper.  
 
 ## Demo
 In this demo, we show that SgxPectre attacks can read the the GPRSGX region of the State Save Area (SSA) after an AEX of the targeted enclave. Because the register values inside the enclave are stored in the SSA region, every register can be read by the SgxPectre attacks.
